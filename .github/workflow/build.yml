@@ -1,5 +1,5 @@
 on:
-  # Trigger analysis when pushing in "main" branch. Change this to another branch if you need to
+  # Trigger analysis when pushing in "main" branch. Change this to another branch if you need it
   push:
     branches:
       - main
