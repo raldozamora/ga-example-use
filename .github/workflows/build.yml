@@ -15,11 +15,10 @@ jobs:
         uses: testmachine-ai/github-action@main
         with:
           tm_repository_id: 1
-          tm_source: hello.sol
+          tm_source: easy_contracts/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TM_TOKEN_KEY: ${{ secrets.TM_TOKEN_KEY }}
-          TM_API_URL: ${{ secrets.TM_API_URL }}
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
