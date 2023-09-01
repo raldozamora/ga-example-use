@@ -14,8 +14,8 @@ jobs:
       - name: TestMachine Scan
         uses: testmachine-ai/github-action@main
         with:
-          tm_repository_id: 1
-          tm_source: easy_contracts/
+          tm_repository_id: 27
+          tm_source: flor_go.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TM_TOKEN_KEY: ${{ secrets.TM_TOKEN_KEY }}
